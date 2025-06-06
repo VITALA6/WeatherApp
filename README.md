@@ -19,6 +19,7 @@ This project is a weather application that retrieves the current weather for a s
 - Weather history is stored in a binary file named `weather_history.dat`.
 
 ## UML Class Diagram
+[UML Diagram]()
 
 ## User Instructions
 1. Type the desired city name into the input field.
