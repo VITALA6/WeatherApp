@@ -39,7 +39,7 @@ Additionally, the application provides relevant illustrations through an image. 
 
 ## UML Class Diagram
 
-[UML Class Diagram]()
+[UML Class Diagram](https://github.com/VITALA6/WeatherApp/blob/master/WeatherAppUML.png)
 
 ## User Instructions
 
@@ -104,9 +104,7 @@ Ponadto, użytkownik uzyskuje ilustracje w postaci odpowiedniego obrazu. Dane po
 
 ## Diagram UML
 
-*Diagram UML przedstawiający zależności między klasami, w tym główne klasy (np. WeatherData, WeatherException, GUI) i ich relacje (dziedziczenie, asocjacje, agregacje) znajdują się w dołączonym załączniku.*
-
----
+[UML Diagram](https://github.com/VITALA6/WeatherApp/blob/master/WeatherAppUML.png)
 
 ## Instrukcje Użytkowania
 
@@ -123,7 +121,7 @@ W tej sekcji możesz dodać zdjęcia przedstawiające działanie aplikacji, wygl
 
 Przykładowe obrazy:
 - **Główne Okno Aplikacji:**  
-  ![Główne Okno](link_do_zdjecia_1)
+  ![Główne Okno]()
 
 - **Okno Historii:**  
-  ![Historia](link_do_zdjecia_2)
+  ![Historia]()
