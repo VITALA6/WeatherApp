@@ -56,10 +56,10 @@ This section can include photos showcasing the application's user interface, fun
 
 Example images:
 - **Main Application Window:**  
-  ![Main Window]()
+  ![](https://cdn.discordapp.com/attachments/603599707796668426/1380991364422041711/image.png?ex=6845e3ee&is=6844926e&hm=2ee077053e79bf6b5b92d4c8dc3e03746b068e683268230257474e41f8f75c81&)
 
 - **History Window:**  
-  ![History Window]()
+  ![](https://cdn.discordapp.com/attachments/603599707796668426/1380991121731096687/image.png?ex=6845e3b4&is=68449234&hm=0c43c924180eb766d3bb003e7b9c13a768084c310aec9eea6da20c00e1e55202&)
 
 # Polish version
 
@@ -121,7 +121,7 @@ W tej sekcji możesz dodać zdjęcia przedstawiające działanie aplikacji, wygl
 
 Przykładowe obrazy:
 - **Główne Okno Aplikacji:**  
-  ![Główne Okno]()
+  ![](https://cdn.discordapp.com/attachments/603599707796668426/1380991364422041711/image.png?ex=6845e3ee&is=6844926e&hm=2ee077053e79bf6b5b92d4c8dc3e03746b068e683268230257474e41f8f75c81&)
 
 - **Okno Historii:**  
-  ![Historia]()
+  ![](https://cdn.discordapp.com/attachments/603599707796668426/1380991121731096687/image.png?ex=6845e3b4&is=68449234&hm=0c43c924180eb766d3bb003e7b9c13a768084c310aec9eea6da20c00e1e55202&)
