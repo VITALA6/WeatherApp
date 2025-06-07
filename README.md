@@ -60,3 +60,70 @@ Example images:
 
 - **History Window:**  
   ![History Window]()
+
+# Polish version
+
+# Aplikacja Pogodowa
+
+**Autor:** VITALA6 (Vitalii Hural)
+
+---
+
+## Wymagania Projektowe
+
+- Projekt został zaimplementowany zgodnie z dobrymi praktykami programowania obiektowego, w tym:
+  - Enkapsulacja oraz przestrzeganie zasad SOLID.
+  - Właściwe użycie dziedziczenia i polimorfizmu (np. poprzez klasy abstrakcyjne takie jak WeatherData).
+- Do zarządzania obiektami przechowującymi dane pogodowe wykorzystywane są kolekcje (np. List).
+- Obsługa wyjątków została zaimplementowana przy użyciu odpowiednich mechanizmów, w tym niestandardowych wyjątków (np. WeatherException).
+- Interfejs graficzny użytkownika (GUI) został zaprojektowany przy użyciu biblioteki Java Swing.
+- Operacje na plikach służą do zapisywania danych pogodowych (historia).
+
+---
+
+## Opis Zadania
+
+Projekt jest aplikacją pogodową, która pobiera aktualną pogodę dla wskazanego miasta, wykorzystując interfejs API OpenWeatherMap oraz geokodowanie z OpenCage. Aplikacja wyświetla informacje o pogodzie, takie jak:
+- Temperatura
+- Opis pogody
+- Wilgotność
+- Prędkość wiatru
+- Lokalny czas
+
+Ponadto, użytkownik uzyskuje ilustracje w postaci odpowiedniego obrazu. Dane pogodowe są również zapisywane lokalnie i mogą być przeglądane przez specjalne okno historii.
+
+---
+
+## Założenia i Ograniczenia
+
+- Wymagane są ważne klucze API dla WEATHER_API_KEY oraz GEO_API_KEY.
+- Do pobierania danych z API niezbędne jest połączenie z internetem.
+- Historia pogodowa jest przechowywana w pliku binarnym o nazwie `weather_history.dat`.
+
+---
+
+## Diagram UML
+
+*Diagram UML przedstawiający zależności między klasami, w tym główne klasy (np. WeatherData, WeatherException, GUI) i ich relacje (dziedziczenie, asocjacje, agregacje) znajdują się w dołączonym załączniku.*
+
+---
+
+## Instrukcje Użytkowania
+
+- Wprowadź nazwę żądanego miasta w pole tekstowe.
+- Kliknij przycisk wyszukiwania (ikona lupy), aby pobrać aktualne dane pogodowe.
+- Informacje o pogodzie, takie jak temperatura, opis, wilgotność, prędkość wiatru oraz lokalny czas, zostaną wyświetlone na ekranie.
+- Aby wyświetlić historię pobranych danych pogodowych, kliknij przycisk „Pokaż Historię”.
+
+---
+
+## Sekcja Zdjęć Aplikacji
+
+W tej sekcji możesz dodać zdjęcia przedstawiające działanie aplikacji, wygląd interfejsu oraz przykłady pobranych danych pogodowych.
+
+Przykładowe obrazy:
+- **Główne Okno Aplikacji:**  
+  ![Główne Okno](link_do_zdjecia_1)
+
+- **Okno Historii:**  
+  ![Historia](link_do_zdjecia_2)
