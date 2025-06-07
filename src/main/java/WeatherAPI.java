@@ -9,21 +9,19 @@ import java.time.format.DateTimeFormatter;
 import org.json.JSONObject;
 import io.github.cdimascio.dotenv.Dotenv;
 
-/**
- * Provides methods to retrieve current weather data using the OpenWeatherMap API.
- * Incorporates country code information from OpenCageGeocoder.
+/*
+ * Implementation of the weather service that uses the OpenWeatherMap API and OpenCageGeocoder.
+ * Implements the WeatherService interface.
  */
-public class WeatherAPI {
+public class WeatherAPI implements WeatherService {
     private final Dotenv dotenv = Dotenv.load();
     private final String apiKey = dotenv.get("WEATHER_API_KEY");
 
-    /**
-     * Retrieves current weather data for the given city.
+    /*
+     * Retrieves current weather data for the specified city.
      *
-     * @param city The city name.
-     * @return An instance of WeatherData with current weather details.
-     * @throws WeatherException if an error occurs while fetching data.
      */
+    @Override
     public WeatherData getCurrentWeather(String city) throws WeatherException {
         try {
             String urlString = "http://api.openweathermap.org/data/2.5/weather?q="
@@ -54,10 +52,10 @@ public class WeatherAPI {
             weather.setHumidity(jsonObj.getJSONObject("main").getInt("humidity"));
             weather.setWindSpeed(jsonObj.getJSONObject("wind").getDouble("speed"));
 
-            // Retrieve timezone offset (in seconds) from the API response
+            // Extract the timezone offset from the API response
             int timezoneOffsetSeconds = jsonObj.getInt("timezone");
 
-            // Calculate local time based on the retrieved timezone offset
+            // Calculate the local time based on the timezone offset
             Instant nowUtc = Instant.now();
             ZoneOffset zoneOffset = ZoneOffset.ofTotalSeconds(timezoneOffsetSeconds);
             LocalDateTime localDateTime = LocalDateTime.ofInstant(nowUtc, zoneOffset);
